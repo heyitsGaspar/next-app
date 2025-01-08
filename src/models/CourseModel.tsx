@@ -1,6 +1,6 @@
 
-type CourseModel = {
-    id: number;
+interface CourseModel {
+    id: string;
     nombre: string;
     precio: string;
     autor: string;
